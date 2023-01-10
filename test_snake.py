@@ -29,5 +29,6 @@ class TestSnake(unittest.TestCase):
         self.assertEqual(snakePathFinder.get_all_paths(depth), 81)
 
 
+
 if __name__ == "__main__":
     unittest.main()

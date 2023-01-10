@@ -16,6 +16,10 @@ Una vez que los caminos llegan a la profundidad adecuada los guardo en una lista
 Cuando se han terminado todos los posibles caminos a recorrer obtengo el número de caminos acabados obtenidos.
 
 
-
 Para completar el problema he incluido un método que permite guardar los caminos acabados en un archivo y que facilita la tarea si hay que comprobar los resultados.
+
+
+La solución que he planteado tiene una complejdad O(4<sup>n</sup>) en el espacio temporal ya que para cada posición tenemos que comprobar 4 posibles caminos. Esto genera que a partir de cierta profundidad de camino el rendimiento decaiga debido a la cantidad de opciones que se tienen que comprobar. 
+
+No se me han ocurrido muchas opciones para conseguir hacer un pruning de caminos a comprobar. Quizás una opción sería buscar patrones de caminos que se repitan pero no estoy seguro de si funcionaría. De todas formas implementarlo me llevaría más de un par de días.
 
