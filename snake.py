@@ -43,6 +43,7 @@ class SnakePathFinder:
         
         if print_paths: self._print_paths(finished_paths)
 
-        return len(finished_paths)
+
+        return len(finished_paths) % 1_000_000_007
 
                 
